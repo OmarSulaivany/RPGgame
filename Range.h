@@ -4,7 +4,7 @@
 // Defines a range [mLow, mHigh].
 struct Range
 {
-	int mLow;
-	int mHigh;
+	float mLow;
+	float mHigh;
 };
 #endif //RANGE_H
