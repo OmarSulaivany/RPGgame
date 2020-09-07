@@ -3,5 +3,5 @@
 #define RANDOM_H
 #include "Range.h"
 float Random(Range r);
-float Random(float a, float b);
+float Random(int a, int b);
 #endif // RANDOM_H

@@ -7,7 +7,7 @@ float Random(Range r)
 	return r.mLow + rand() % ((r.mHigh + 1) - r.mLow);
 }
 // Returns a random number in [low, high].
-float Random(float low, float high)
+float Random(int low, int high)
 {
 	return low + rand() % ((high + 1) - low);
 }
